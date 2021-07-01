@@ -16,27 +16,51 @@ body{
   clear: both;
 }
 
+.float-left{
+  float: left;
+}
+
+.float-right{
+  float: right;
+}
+
+.container-wide{
+  width: 85%;
+  max-width: 1500px;
+  margin: auto;
+}
+
+/* buttons */
 .btn{
   padding: 5px 20px;
   background-color: #0061ff;
   color: #ffffff;
+  text-decoration: none;
 }
 
 /* typo */
+.hero h1{
+  font-size: 85px;
+}
 
+.font-small{
+  font-size: 0.80em;
+}
 
 /* header */
 header{
   position: fixed;
+  top: 0;
   width: 100%;
   height: 80px;
   padding: 0 20px;
+  background-color: #ffffff;
   border-bottom: 1px solid #d0d0d3;
+  z-index: 10;
 }
 
 .header-left, .header-right{
   width: 50%;
-  float: left;
 }
 
 .header-right{
@@ -67,3 +91,42 @@ a.btn{
   line-height: normal;
 }
 
+/* main */
+.hero{
+  margin-top: 80px;
+  background-color: #b4d0e7;
+}
+
+.hero .container-wide{
+  padding-top: 150px;
+}
+
+.hero-bottom{
+  /* margin-top: 50px; */
+  position: relative;
+  bottom: -85px;
+}
+
+.hero-text{
+  width: 25%;
+}
+
+.hero-text p{
+  margin-bottom: 30px;
+}
+
+.hero-text a{
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.hero img{
+  width: 65%;
+  margin-left: 10%;
+}
+
+.arrow{
+  display: inline-block;
+  margin-top: 40px;
+  font-size: 35px;
+}
