@@ -36,6 +36,11 @@ body{
   margin: auto;
 }
 
+.link{
+  color: #0061ff;
+  text-decoration: underline;
+}
+
 /* buttons */
 .btn{
   padding: 5px 20px;
@@ -232,11 +237,6 @@ header a.btn{
   display: inline-block;
 }
 
-.plan .col .link{
-  color: #0061ff;
-  text-decoration: underline;
-}
-
 .plan .benefits li{
   margin-bottom: 20px;
   list-style: none;
@@ -303,4 +303,90 @@ header a.btn{
 
 .operations .card h3{
   margin-bottom: 20px;
+}
+
+/* teams */
+.teams .teams-container{
+  margin-top: 30px;
+  width: 100%;
+  background-color: #f5f5f5;
+}
+
+/* .teams .col{
+  border: 1px solid black;
+} */
+
+.teams .col-left, .teams .col-right{
+  width: 30%;
+}
+
+.teams .col-center{
+  width: 40%;
+  height: 100%;
+}
+
+.teams .teams-row{
+  width: 100%;
+}
+
+.teams .square-container{
+  position: relative;
+  width: 50%;
+  padding-top: 50%;
+}
+
+.teams .square-container img{
+width: 50%;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50% ,-50%);
+}
+
+.teams .square-container.designit{
+  border: 10px solid #d0e9cd;
+  background-color: #a2d39b;
+  padding-top: calc(50% - 20px);
+}
+
+.teams .square-container.asu{
+  background-color: #61082b;
+}
+
+.teams .square-container.uf{
+  background-color: #0093ce;
+}
+
+.teams .square-container.topps{
+  background-color: #ff1c1c;
+}
+
+.teams .square-container.wbr{
+  background-color: #d5001f;
+}
+
+.teams .square-container.hc{
+  background-color: #b4d0e7;
+}
+
+.teams .square-container.lp{
+  background-color: #0d2481;
+}
+
+.teams .square-container.cco{
+  background-color: #ffd830;
+}
+
+.teams .col-center-container{
+  padding: 8%;
+}
+
+.teams .col-center img{
+  width: 30%;
+}
+
+.teams .col-center .separator{
+  border-bottom: 1px solid #dfdfe0;
+  width: 10%;
+  margin: 30px 0 50px;
 }
