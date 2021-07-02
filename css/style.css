@@ -42,7 +42,14 @@ body{
   background-color: #0061ff;
   color: #ffffff;
   text-decoration: none;
+  line-height: normal;
   display: inline-block;
+}
+
+.btn-white{
+  color: #000000;
+  background-color: #ffffff;
+  border: 1px solid #000000;
 }
 
 /* typo */
@@ -117,7 +124,7 @@ header .logo{
   vertical-align: middle;
 }
 
-a.btn{
+header a.btn{
   color: #ffffff;
   line-height: normal;
 }
@@ -161,7 +168,7 @@ a.btn{
   font-size: 35px;
 }
 
-/* billing */
+/* plan */
 .plan .container{
   margin-top: 200px;
 }
@@ -255,4 +262,19 @@ a.btn{
 
 .enterprise-right{
   width: 30%;
+}
+
+/* partner */
+.partner{
+  padding-top: 100px;
+}
+
+.partner .partner-img{
+  width: 55%;
+}
+
+.partner .partner-text{
+  width: 40%;
+  margin-left: 5%;
+  padding-top: 50px;
 }
