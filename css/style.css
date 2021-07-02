@@ -57,6 +57,11 @@ body{
   font-size: 85px;
 }
 
+.plan h2, .operations h2{
+  font-size: 45px;
+  margin-bottom: 60px;
+}
+
 h3{
   font-size: 25px;
 }
@@ -173,11 +178,6 @@ header a.btn{
   margin-top: 200px;
 }
 
-.plan h2{
-  font-size: 45px;
-  margin-bottom: 60px;
-}
-
 .plan .billing{
   margin-bottom: 40px;
 }
@@ -277,4 +277,30 @@ header a.btn{
   width: 40%;
   margin-left: 5%;
   padding-top: 50px;
+}
+
+/* operations */
+.operations h2{
+  padding-top: 80px;
+}
+
+.operations .operations-row{
+  width: 100%;
+  margin-bottom: 80px;
+}
+
+.operations .card{
+  width: calc((100% - 10%) / 3);
+}
+
+.operations .card img{
+  width: 100%;
+}
+
+.operations .card.card-center{
+  margin: 0 5%;
+}
+
+.operations .card h3{
+  margin-bottom: 20px;
 }
