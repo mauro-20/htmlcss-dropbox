@@ -30,12 +30,19 @@ body{
   margin: auto;
 }
 
+.container{
+  width: 70%;
+  max-width: 1200px;
+  margin: auto;
+}
+
 /* buttons */
 .btn{
   padding: 5px 20px;
   background-color: #0061ff;
   color: #ffffff;
   text-decoration: none;
+  display: inline-block;
 }
 
 /* typo */
@@ -43,8 +50,32 @@ body{
   font-size: 85px;
 }
 
+h3{
+  font-size: 25px;
+}
+
 .font-small{
   font-size: 0.80em;
+}
+
+.margin-bt-10px{
+  margin-bottom: 10px;
+}
+
+.margin-bt-20px{
+  margin-bottom: 20px;
+}
+
+.margin-bt-30px{
+  margin-bottom: 30px;
+}
+
+.margin-bt-40px{
+  margin-bottom: 40px;
+}
+
+.margin-bt-50px{
+  margin-bottom: 50px;
 }
 
 /* header */
@@ -98,11 +129,10 @@ a.btn{
 }
 
 .hero .container-wide{
-  padding-top: 150px;
+  padding-top: 130px;
 }
 
 .hero-bottom{
-  /* margin-top: 50px; */
   position: relative;
   bottom: -85px;
 }
@@ -129,4 +159,85 @@ a.btn{
   display: inline-block;
   margin-top: 40px;
   font-size: 35px;
+}
+
+/* billing */
+.plan .container{
+  margin-top: 200px;
+}
+
+.plan h2{
+  font-size: 45px;
+  margin-bottom: 60px;
+}
+
+.plan .billing{
+  margin-bottom: 40px;
+}
+
+.billing label{
+  margin-right: 20px;
+}
+
+.plan-row{
+  width: 100%;
+}
+
+.plan-row .col{
+  width: calc((100% - 10%) / 3);
+  height: 1100px;
+  border: 1px solid #e4e4e6 ;
+}
+
+.plan-row .col-center{
+  margin: 0 5%;
+}
+
+.col .client{
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  border-bottom: 1px solid #e4e4e6;
+}
+
+.plan .col-container{
+  margin: 40px 30px;
+}
+
+.plan .col h3{
+  margin-bottom: 25px;
+}
+
+.plan .col .frequency{
+  color: #73818e;
+}
+
+.plan .col .btn{
+  width: 100%;
+  text-align: center;
+}
+
+.plan .col .buy-now span:first-child{
+  padding-bottom: 30px;
+  border-bottom: 1px solid #e4e4e6;
+  margin-bottom: 30px;
+  display: inline-block;
+}
+
+.plan .col .link{
+  color: #0061ff;
+  text-decoration: underline;
+}
+
+.plan .benefits li{
+  margin-bottom: 20px;
+  list-style: none;
+}
+
+.plan .benefits li::before{
+  content: "\f00c";
+  color: #0061ff;
+  margin-right: 5px;
+  font-weight: 900;
+  font-family: "Font Awesome 5 Free";
 }
