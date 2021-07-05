@@ -80,6 +80,10 @@ h3{
   font-size: 0.80em;
 }
 
+.strong{
+  font-weight: bold;
+}
+
 .margin-bt-10px{
   margin-bottom: 10px;
 }
@@ -412,4 +416,29 @@ transform: translate(-50% ,-50%);
 
 .free-trial-btn a{
   width: 60%;
+}
+
+/* FAQ */
+.faq .container{
+  padding: 100px 0 125px;
+}
+
+.faq h2{
+  font-size: 30px;
+  margin-bottom: 60px;
+}
+
+.faq li{
+  list-style: none;
+  line-height: 80px;
+  border-bottom: 1px solid #dfdfe0;
+}
+
+.faq li:first-child{
+  border-top: 1px solid #dfdfe0;
+}
+
+.faq li i{
+ line-height: 80px;
+ margin-right: 20px;
 }
