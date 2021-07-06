@@ -10,7 +10,7 @@ body{
   font-family: 'Open Sans', sans-serif;
 }
 
-.clearfix{
+.clearfix::after{
   content: "";
   display: table;
   clear: both;
@@ -240,6 +240,13 @@ header a.btn{
   color: #73818e;
 }
 
+.plan .col .details li{
+  margin-bottom: 30px;
+  list-style: none;
+  text-indent: -10px;
+  padding-left: 22px;
+}
+
 
 .plan .btn{
   width: 100%;
@@ -255,6 +262,8 @@ header a.btn{
 .plan .benefits li{
   margin-bottom: 20px;
   list-style: none;
+  text-indent: -21px;
+  padding-left: 20px;
 }
 
 .plan .benefits li::before{
@@ -367,9 +376,7 @@ transform: translate(-50% ,-50%);
 }
 
 .teams .square-container.designit{
-  border: 10px solid #d0e9cd;
   background-color: #a2d39b;
-  padding-top: calc(50% - 20px);
 }
 
 .teams .square-container.asu{
@@ -510,5 +517,11 @@ a.btn-white:hover{
 
 .hero .arrow:hover{
   transform: scale(1.5);
+  cursor: pointer;
+}
+
+.teams .square-container:hover{
+  border: 10px solid rgba(248,248,248, 0.5);
+  padding-top: calc(50% - 20px);
   cursor: pointer;
 }
