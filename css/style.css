@@ -240,43 +240,6 @@ header a.btn{
   color: #73818e;
 }
 
-.icon{
-  display: inline-block;
-  width: 10%;
-}
-.test{
-  display: inline-block;
-  width: 88%;
-}
-
-/* .plan .col .account-detail li{
-  margin-bottom: 30px;
-  list-style: none;
-}
-
-.plan .col .account-detail li span{
-  display: inline-block;
-  
-}
-
-.plan .account-detail .user::before{
-  content: "\f007\ ";
-  font-family: "Font Awesome 5 Free";
-  font-weight: 400;
-}
-
-.plan .account-detail .space::before{
-  content: "\f07b\ ";
-  font-family: "Font Awesome 5 Free";
-  font-weight: 400;
-}
-
-.plan .account-detail .functionality::before{
-  content: "\f303\ ";
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  display: inline-block;
-} */
 
 .plan .btn{
   width: 100%;
@@ -527,4 +490,25 @@ footer .col a{
 .language, footer .separator{
   color: #999999;
   border-color: #999999;
+}
+
+/* hover */
+header a:hover{
+  background-color: #e9e9e9;
+  line-height: 50px;
+}
+
+a.btn:hover{
+  background-color: #4a90ff;
+  line-height: normal;
+}
+
+a.btn-white:hover{
+  background-color: #e9e9e9;
+  line-height: normal;
+}
+
+.hero .arrow:hover{
+  transform: scale(1.5);
+  cursor: pointer;
 }
